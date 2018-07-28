@@ -20,6 +20,8 @@ class School
     roster.each do |grade, student_array|
       student_array.sort!
     end
+
+    #sort hash by grade
     roster.sort.to_h
   end
 end
