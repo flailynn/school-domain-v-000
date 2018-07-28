@@ -16,6 +16,7 @@ class School
   end
 
   def sort
+    #for each grade, sort the students in alphabetical order
     roster.each do |grade, student_array|
       student_array.sort!
     end
