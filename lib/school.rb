@@ -7,5 +7,6 @@ class School
   end
 
   def add_studnet=(student_name, grade)
+    roster[grade] << student_name
   end
 end
