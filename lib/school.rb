@@ -6,4 +6,6 @@ class School
     @roster = {}
   end
 
+  def add_studnet=(student_name, grade)
+  end
 end
