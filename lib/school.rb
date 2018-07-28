@@ -16,6 +16,9 @@ class School
   end
 
   def sort
+    roster.each do |grade, student_array|
+      student_array.sort!
+    end
     roster.sort.to_h
   end
 end
