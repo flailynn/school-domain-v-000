@@ -10,4 +10,8 @@ class School
     roster[grade] = [] if roster[grade].nil?
     roster[grade] << student_name
   end
+
+  def grade(grade)
+    roster[grade]
+  end
 end
